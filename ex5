@@ -1,0 +1,24 @@
+<?php
+	$a=0;
+	$b=0;
+	$w=0;
+	$x=0;
+	$y=0;
+	$z=0;
+	echo "Escreva um primeiro valor:";
+	$a=readline();
+	echo "Escreva um segundo valor:";
+	$b=readline();
+	$w=$a+$b;
+	echo "O resultado da soma é:";
+	echo $w;
+	$x=$a*$b;
+	echo "O resultado da multiplicação é:";
+	echo $x;
+	$y=$a-$b;
+	echo "O resultado da subtração do 1º pelo 2º é:";
+	echo $y;
+	$z=($a*$b)/$w;
+	echo "O resultado da equação (1º * 2º) / (1º + 2º) é:";
+	echo $z;
+?>

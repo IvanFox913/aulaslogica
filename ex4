@@ -1,0 +1,11 @@
+<?php
+	$a=0;
+	$b=0;
+	$x=0;
+	echo "Digite o valor a ser multiplicado:";
+	$a=readline ();
+	echo "Digite o valor do multiplicador:";
+	$b=readline ();
+	$x=$a*$b;
+	echo $x;
+?>	

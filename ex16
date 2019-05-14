@@ -1,0 +1,8 @@
+<?php
+	$x=0;
+	echo "Pressione 1 pra sair!";
+	while ($x!=1) {
+		echo "Senac-2019";
+		$x=readline();
+}
+?>

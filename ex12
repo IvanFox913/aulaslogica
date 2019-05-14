@@ -1,0 +1,12 @@
+<?php
+	$a=0;
+	echo "Digite um valor maior que 0:";
+	$a=readline();
+	if (10<$a and $a<20) {
+		echo "O valor é maior que 10 e menor que 20!";
+}	else if ($a<=10) {
+		echo "O valor é menor ou igual a 10!";
+}	else {
+		echo "O valor é maior ou igual a 20!";
+}
+?>

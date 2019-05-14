@@ -1,0 +1,6 @@
+<?php
+	$a="";
+	echo "Digite algo e veja de novo!";
+	$a=readline();
+	echo $a;
+?>

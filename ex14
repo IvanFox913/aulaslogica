@@ -1,0 +1,15 @@
+<?php
+	$x=0;
+	$y=0;
+	echo "Digite um primeiro valor maior que 0:";
+	$x=readline();
+	echo "Digite um segundo valor maior que 0:";
+	$y=readline();
+	if ($x<$y) {
+		echo "O primeiro valor é menor que o segundo!";
+}	else if ($x>$y) {
+		echo "O segundo valor é menor que o primeiro!";
+}	else {
+		echo "Os dois valores são iguais!";
+}
+?>

@@ -1,0 +1,6 @@
+<?php
+	$t="";
+	echo "Digite algo para ser mostrado na tela";
+	$t=readline();
+	echo $t;
+?>	
