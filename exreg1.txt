@@ -1,0 +1,12 @@
+<?php
+    $i=0;
+    $pessoa=array();
+    $cad=array();
+    for ($i=0;$i<3;$i++) {
+        $pessoa["nome"]="";
+        $pessoa["idade"]=0;
+        $pessoa["genero"]="";
+        $cad[$i]=$pessoa;
+        $pessoa=array();
+    }
+?>

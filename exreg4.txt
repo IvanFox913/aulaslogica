@@ -1,0 +1,20 @@
+<?php
+    $i=0;
+    $pessoa=array();
+    $cad=array();
+    for ($i=0;$i<13;$i++) {
+        $pessoa["nome"]="";
+        $pessoa["idade"]=0;
+        $pessoa["nacionalidade"]="";
+        $cad[$i]=$pessoa;
+        $pessoa=array();
+    }
+    for ($i=0;$i<13;$i++) {
+        echo "Digite o nome:";
+        $pessoa["nome"]=readline();
+        echo "Insira a idade:";
+        $pessoa["idade"]=readline();
+        echo "Diga a nacionalidade:";
+        $pessoa["nacionalidade"]=readline();
+    }
+?>

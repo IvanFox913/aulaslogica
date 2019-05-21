@@ -1,0 +1,13 @@
+<?php
+    $i=0;
+    $livro=array();
+    $cad=array();
+    for ($i=0;$i<10;$i++) {
+        $livro["titulo"]="";
+        $livro["lancamento"]=0;
+        $livro["autor"]="";
+        $livro["capaDura"]=False;
+        $cad[$i]=$livro;
+        $livro=array();
+    }
+?>

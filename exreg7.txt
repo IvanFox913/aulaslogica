@@ -1,0 +1,28 @@
+<?php
+    $i=0;
+    $prod=array();
+    $cad=array();
+     {
+        $prod["produto"]="";
+        $prod["marca"]="";
+        $prod["preco"]=0;
+        $cad[$i]=$prod;
+        $prod=array();
+    }
+    for ($i=0;$i<10;$i++) {
+        echo "Digite o nome do produto:";
+        $prod["produto"]=readline();
+        echo "Digite a marca do produto:";
+        $prod["marca"]=readline();
+        echo "Digite o preço do produto:";
+        $prod["preco"]=readline();
+    }
+    for ($i=0;$i<10;$i++) {
+        echo "Produto:";
+        echo $cad[$i]["produto"];
+        echo "Marca:";
+        echo $cad[$i]["marca"];
+        echo "Preço:";
+        echo $cad[$i]["preco"];
+    }
+?>

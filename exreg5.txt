@@ -1,0 +1,20 @@
+<?php
+    $i=0;
+    $filme=array();
+    $cad=array();
+    for ($i=0;$i<5;$i++) {
+        $filme["titulo"]="";
+        $filme["lancamento"]=0;
+        $filme["genero"]="";
+        $cad[$i]=$filme;
+        $filme=array();
+    }
+    for ($i=0;$i<5;$i++) {
+        echo "Digite o título do filme:";
+        $filme["titulo"]=readline();
+        echo "Digite a data de lançamento do filme:";
+        $filme["lancamento"]=readline();
+        echo "Digite o gênero do filme:"
+        $filme["genero"]=readline();
+    }
+?>

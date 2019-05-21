@@ -1,0 +1,13 @@
+<?php
+	$i=0;
+	$carro=array();
+	$cad=array();
+	for ($i=0;$i<20;$i++) {
+		$carro["marca"]="";
+		$carro["modelo"]="";
+		$carro["ano"]=0;
+		$carro["cor"]="";
+		$cad[$i]=$carro;
+		$carro=array();
+	}
+?>

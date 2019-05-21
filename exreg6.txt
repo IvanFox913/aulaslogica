@@ -1,0 +1,28 @@
+﻿<?php
+    $i=0;
+    $jogo=array();
+    $cad=array();
+    for ($i=0;$i<7;$i++) {
+        $jogo["titulo"]="";
+        $jogo["genero"]="";
+        $jogo["lancamento"]=0;
+        $cad[$i]=$jogo;
+        $jogo=array();
+    }
+    for ($i=0;$i<7;$i++) {
+        echo "Digite o título do jogo:";
+        $jogo["titulo"]=readline();
+        echo "Digite o gênero do jogo:";
+        $jogo["genero"]=readline();
+        echo "Digite o ano de lançamento do jogo:";
+        $jogo["lancamento"]=realine();
+    }
+    for ($i=0;$i<7;$i++) {
+        echo "jogo:";
+        echo $cad[$i]["titulo"];
+        echo "Genero:";
+        echo $cad[$i]["genero"];
+        echo "Ano de Lançamento:";
+        echo $cad[$i]["lancamento"];
+    }
+?>
